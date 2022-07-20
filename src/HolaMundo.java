@@ -223,9 +223,9 @@ public class HolaMundo {
          }
          
          var edad = 30;
-         var esAdulto = edad >= 18;
+         // var esAdulto = edad >= 18;
          
-         if(esAdulto) {
+         if( edad >= 18 ) {
              System.out.println("Eres mayor de edad");
          } else {
              System.out.println("Eres menor de edad");

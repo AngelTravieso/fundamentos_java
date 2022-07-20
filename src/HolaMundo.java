@@ -158,8 +158,7 @@ public class HolaMundo {
         System.out.println("Valor minimo tipo double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo tipo double: " + Double.MAX_VALUE);
          */
-        
-        
+ /*
         
         var numeroEntero = 10;
         System.out.println("numeroEntero = " + numeroEntero);
@@ -170,9 +169,44 @@ public class HolaMundo {
         
         var numeroFloat = 10.0F;
         System.out.println("numeroFloat = " + numeroFloat);
-        
-        
-        
+         */
+        // 16bits
+        char miCaracter = 'a';
+        System.out.println("miCaracter = " + miCaracter);
+
+        // codigo Unicode
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar);
+
+        // codigo decimal del caracter
+        char varCharDecimal = 33;
+        System.out.println("varCharDecimal = " + varCharDecimal);
+
+        // directamente
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+
+        // codigo Unicode
+        var varChar1 = '\u0021';
+        System.out.println("varChar1 = " + varChar1);
+
+        // codigo decimal del caracter
+        // con var imprime el valor literal
+        // si se quiere el simbolo se hace un cast (char)33
+        var varCharDecimal2 = 33;
+        System.out.println("varCharDecimal2 = " + varCharDecimal2);
+
+        // directamente
+        var varCharSimbolo3 = '!';
+        System.out.println("varCharSimbolo3 = " + varCharSimbolo3);
+
+        // Esto imprime el codigo decimal asociado al simbolo
+        int variableEnteraSimbolo = '!';
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo);
+
+        int letra = 'a';
+        System.out.println("letra = " + letra);
+
     }
 
 }

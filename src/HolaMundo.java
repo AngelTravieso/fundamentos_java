@@ -170,6 +170,7 @@ public class HolaMundo {
         var numeroFloat = 10.0F;
         System.out.println("numeroFloat = " + numeroFloat);
          */
+ /*
         // 16bits
         char miCaracter = 'a';
         System.out.println("miCaracter = " + miCaracter);
@@ -206,7 +207,31 @@ public class HolaMundo {
 
         int letra = 'a';
         System.out.println("letra = " + letra);
-
+         */
+ 
+         /*
+ tipos primitivos booleanos
+ */
+         
+         boolean varBoolean = false;
+         System.out.println("varBoolean = " + varBoolean);
+         
+         if(varBoolean) {
+             System.out.println("La bandera es verdadera");
+         } else {
+             System.out.println("La bandera es falsa");
+         }
+         
+         var edad = 30;
+         var esAdulto = edad >= 18;
+         
+         if(esAdulto) {
+             System.out.println("Eres mayor de edad");
+         } else {
+             System.out.println("Eres menor de edad");
+         }
+         
+         
     }
 
 }

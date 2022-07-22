@@ -300,10 +300,9 @@ public class HolaMundo {
             System.out.println("Es numero par");
         else
             System.out.println("Es numero impar");
-*/
-        
+         */
         // Operadores de asignacion
-        
+        /*
         int a = 3, b = 2;
         int c = a + 5 - b;
         
@@ -329,28 +328,57 @@ public class HolaMundo {
         
         a %= 2;
         System.out.println("a = " + a);
+         */
         
+        // Operadores unarios
+        var a = 3;
+        var b = -a;
         
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
         
+        var c = true;
+        var d = !c;
         
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
         
+        // incremento
+        // 1. Preincremento (simbolo antes de la variable)
+        var e = 3;
+        // tambien modifica el valor original (e = 4)
+        var f = ++e; // Primero se incrementa la variable y despues se usa
         
+        System.out.println("e = " + e);
+        System.out.println("f = " + f);
         
+        // 2. Postincremento (simbolo despues de la variable)
+        var g = 5;
+        var h = g++; // Primero se usa y despues se incrementa
+        System.out.println("g = " + g);
+        System.out.println("h = " + h);
         
+        // decremento
+        // 1. Predecremento
+        var i = 2;
+        var j = --i;
         
+        System.out.println("i = " + i);
+        System.out.println("j = " + j);
         
+         // 2. Postdecremento
+         
+         var k = 4;
+         var l = k--; // Primero se usa el valor y queda pendiente el decremento
+         
+         System.out.println("k = " + k); // Tenia pendiente un decremento
+         System.out.println("l = " + l); 
+         
+         
+         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-                
+         
+         
         
     }
 

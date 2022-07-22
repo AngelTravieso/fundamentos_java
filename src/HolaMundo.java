@@ -257,7 +257,7 @@ public class HolaMundo {
 
         System.out.println("caracter = " + caracter);
          */
-        
+ /*
         Scanner consola = new Scanner(System.in);
         
         System.out.println("Proporciona el nombre:");
@@ -275,6 +275,54 @@ public class HolaMundo {
         System.out.println(nombre + " #" + id);
         System.out.println("Precio: $" + precio);
         System.out.println("Envio Gratuito: " + envio);
+         */
+        // Operadores aritméticos en Java
+        
+        int a = 3, b = 2;
+        var resultado = a + b;
+        
+        System.out.println("suma = " + resultado);
+        
+        resultado = a - b;
+        System.out.println("resta = " + resultado);
+        
+        resultado = a * b;
+        System.out.println("multiplicacion = " + resultado);
+        
+        // 3.0, 3F, 3D
+        var resultado2 = 3D / b;
+        System.out.println("division = " + resultado2);
+        
+        resultado = a % b;
+        System.out.println("resto = " + resultado);
+        
+        if( a % 2 == 0)
+            System.out.println("Es numero par");
+        else
+            System.out.println("Es numero impar");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
         
     }
 

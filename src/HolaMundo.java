@@ -468,8 +468,8 @@ public class HolaMundo {
         resultado = ( 4 + 5 ) * 6 / 3;
         
         System.out.println("resultado = " + resultado);*/
-        
         // Ejercicio: Calcular el area y perimetro de un rectangulo
+        /*
         Scanner console = new Scanner(System.in);
         
         System.out.println("Proporciona el alto: ");
@@ -485,7 +485,26 @@ public class HolaMundo {
         
         System.out.println("Area = " + area);
         System.out.println("Perimetro = " + perimetro);
+         */
         
+        // Ejercicio: EL mayor de 2 numeros
+        
+        
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("Proporciona el numero1: ");
+        
+        int numero1 = Integer.parseInt(console.nextLine());
+        
+        System.out.println("Proporciona el numero2: ");
+        
+        int numero2 = Integer.parseInt(console.nextLine());
+        
+        if(numero1 > numero2) {
+            System.out.println("El numero " + numero1 + " es mayor");
+        } else {
+            System.out.println("El numero " + numero2 + " es mayor");
+        }
         
     }
 

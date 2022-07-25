@@ -452,7 +452,7 @@ public class HolaMundo {
         System.out.println("resultado = " + resultado);
          */
         // Precedencia de operadores
-        
+        /*
         var x = 5;
         var y = 10;
         var z = ++x + y--;
@@ -467,7 +467,24 @@ public class HolaMundo {
         
         resultado = ( 4 + 5 ) * 6 / 3;
         
-        System.out.println("resultado = " + resultado);
+        System.out.println("resultado = " + resultado);*/
+        
+        // Ejercicio: Calcular el area y perimetro de un rectangulo
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("Proporciona el alto: ");
+        
+        double alto = Double.parseDouble(console.nextLine());
+        
+        System.out.println("Proporciona el ancho: ");
+        
+        double ancho = Double.parseDouble(console.nextLine());
+        
+        var area = alto * ancho;
+        var perimetro = (alto +  ancho ) * 2;
+        
+        System.out.println("Area = " + area);
+        System.out.println("Perimetro = " + perimetro);
         
         
     }

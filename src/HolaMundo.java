@@ -329,7 +329,7 @@ public class HolaMundo {
         a %= 2;
         System.out.println("a = " + a);
          */
-        
+ /*
         // Operadores unarios
         var a = 3;
         var b = -a;
@@ -373,12 +373,38 @@ public class HolaMundo {
          
          System.out.println("k = " + k); // Tenia pendiente un decremento
          System.out.println("l = " + l); 
-         
-         
-         
+         */
+        // Operadores de Igualdad
+        var a = 3;
+        var b = 2;
         
-         
-         
+        // Igualdad
+        var c = ( a == b);
+        System.out.println("c = " + c);
+        
+        // Diferente
+        var d = ( a != b );
+        System.out.println("d = " + d);
+        
+        
+        // Comparar cadenas
+        var cadena = "Hola";
+        var cadena2 = "Hola";
+        
+        // Compara referencias de objetos
+        var e = cadena == cadena2;
+        System.out.println("e = " + e);
+        
+        // Comparar contenido de la cadena
+        var f = cadena.equals(cadena2);
+        System.out.println("f = " + f);
+        
+        
+        
+        
+        
+        
+        
         
     }
 

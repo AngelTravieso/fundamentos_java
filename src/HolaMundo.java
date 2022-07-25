@@ -421,6 +421,7 @@ public class HolaMundo {
          */
         // Operadores condicionales
         // &&, ||
+        /*
         var a = 10;
         var valorMinimo = 0;
         var valorMaximo = 10;
@@ -440,8 +441,16 @@ public class HolaMundo {
             System.out.println("Padre puede asistir al juego del hijo");
         } else {
             System.out.println("El padre esta ocupado");
-        }
-
+        }*/
+        // Operador ternario    
+        
+        var resultado = ( 3 > 2 ) ? "verdadero" : "falso" ;
+        System.out.println("resultado = " + resultado);
+        
+        var numero = 8;
+        resultado = ( numero % 2 == 0 ) ? "Es par" : "Es impar";
+        System.out.println("resultado = " + resultado);
+        
     }
 
 }

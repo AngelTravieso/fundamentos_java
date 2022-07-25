@@ -443,13 +443,32 @@ public class HolaMundo {
             System.out.println("El padre esta ocupado");
         }*/
         // Operador ternario    
-        
+        /*
         var resultado = ( 3 > 2 ) ? "verdadero" : "falso" ;
         System.out.println("resultado = " + resultado);
         
         var numero = 8;
         resultado = ( numero % 2 == 0 ) ? "Es par" : "Es impar";
         System.out.println("resultado = " + resultado);
+         */
+        // Precedencia de operadores
+        
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        
+        var resultado = 4 + 5 * 6 / 3;
+        
+        System.out.println("resultado = " + resultado);
+        
+        resultado = ( 4 + 5 ) * 6 / 3;
+        
+        System.out.println("resultado = " + resultado);
+        
         
     }
 

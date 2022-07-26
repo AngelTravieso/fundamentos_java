@@ -486,10 +486,8 @@ public class HolaMundo {
         System.out.println("Area = " + area);
         System.out.println("Perimetro = " + perimetro);
          */
-        
         // Ejercicio: EL mayor de 2 numeros
-        
-        
+        /*
         Scanner console = new Scanner(System.in);
         
         System.out.println("Proporciona el numero1: ");
@@ -504,8 +502,16 @@ public class HolaMundo {
             System.out.println("El numero " + numero1 + " es mayor");
         } else {
             System.out.println("El numero " + numero2 + " es mayor");
+        }*/
+        // If - else
+        var condicion = false;
+
+        if (condicion) {
+            System.out.println("Condicion verdadera");
+        } else {
+            System.out.println("Condicion falsa");
         }
-        
+
     }
 
 }

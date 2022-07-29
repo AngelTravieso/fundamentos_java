@@ -530,24 +530,31 @@ public class HolaMundo {
         
         System.out.println("numeroTexto = " + numeroTexto);
          */
-        
-        
         // Ejercicio calculo del año con if - else
         
-        var mes = 1;
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("Ingrese el mes: ");
+        
+        var mes = Integer.parseInt(console.nextLine());
+        
+        //var mes = 1;
         var estacion = "Estacion desconocida";
         
         if(mes == 1 || mes == 2 || mes == 12) {
-            estacion = "Invierno";
+            estacion = "invierno";
         } else if (mes == 3 || mes == 4 || mes == 5) {
-            estacion = "Primavera";
+            estacion = "primavera";
         } else if (mes == 6 || mes == 7 || mes == 8) {
-            estacion = "Verano";
+            estacion = "verano";
         } else if(mes == 9 || mes == 10 || mes == 11) {
-            estacion = "Otoño";
+            estacion = "otoño";
         }
         
-        System.out.println("estacion = " + estacion);
+        System.out.println("Estas en " + estacion + "...");
+         
+        
+        // Switch
         
     }
 

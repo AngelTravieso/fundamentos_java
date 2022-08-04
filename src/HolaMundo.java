@@ -531,7 +531,7 @@ public class HolaMundo {
         System.out.println("numeroTexto = " + numeroTexto);
          */
         // Ejercicio calculo del año con if - else
-        
+        /*
         Scanner console = new Scanner(System.in);
         
         System.out.println("Ingrese el mes: ");
@@ -552,9 +552,32 @@ public class HolaMundo {
         }
         
         System.out.println("Estas en " + estacion + "...");
-         
-        
+         */
         // Switch
+        
+        var numero = 2;
+        var numeroTexto = "Desconocido";
+        
+        switch( numero ) {
+                
+            case 1:
+                numeroTexto = "Numero uno";
+                break;
+            case 2:
+                numeroTexto = "Numero dos";
+                break;
+            case 3:
+                numeroTexto = "Numero tres";
+                break;
+            case 4:
+                numeroTexto = "Numero cuatro";
+                break;
+            default:
+                numeroTexto = "Caso no encontrado";
+         
+        }
+        
+        System.out.println("numeroTexto = " + numeroTexto);
         
     }
 

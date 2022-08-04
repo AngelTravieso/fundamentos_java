@@ -583,6 +583,7 @@ public class HolaMundo {
         
         // var mes = 1;
         
+        /*
         Scanner console = new Scanner(System.in);
         
         System.out.println("Ingrese un mes: ");
@@ -607,7 +608,31 @@ public class HolaMundo {
         }
         
         System.out.println("estacion = " + estacion);
+*/
         
+        // Ejercicio: Sistema de calificaciones
+        
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("Proporciona un valor entre 0 y 10:");
+        
+        var calificacion = Integer.parseInt(console.nextLine());
+        var nota = "Desconocida";
+        
+        if(calificacion <= 6) {
+            nota = "F";
+        } else if (calificacion >= 6 && calificacion <= 7) {
+            nota = "D";
+        } else if (calificacion >= 7 && calificacion <= 8) {
+            nota = "C";
+        } else if (calificacion >= 8 && calificacion <= 9) {
+             nota = "B";
+        } else if (calificacion >= 9 && calificacion <= 10) {
+            nota = "A";
+        }
+        
+        System.out.println("Su nota es " + nota + "...");        
+  
     }
 
 }

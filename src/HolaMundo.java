@@ -581,7 +581,13 @@ public class HolaMundo {
          */
         // Ejercicio: Calculo estacion del año con switch
         
-        var mes = 1;
+        // var mes = 1;
+        
+        Scanner console = new Scanner(System.in);
+        
+        System.out.println("Ingrese un mes: ");
+        
+        var mes = Integer.parseInt(console.nextLine());
         
         var estacion = "Estacion desconocida";
         

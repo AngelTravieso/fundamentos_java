@@ -650,10 +650,11 @@ public class HolaMundo {
          */
         
         // Ciclos: for
+        inicio:
         for(var contador = 0; contador < 3 ; contador++) {
             if( contador % 2 == 0) {
                 System.out.println("contador = " + contador);
-                continue; // ir a la siguiente iteracion
+                continue inicio; // ir a la siguiente iteracion
             }
             
         }

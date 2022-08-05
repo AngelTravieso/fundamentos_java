@@ -580,9 +580,7 @@ public class HolaMundo {
         System.out.println("numeroTexto = " + numeroTexto);
          */
         // Ejercicio: Calculo estacion del año con switch
-        
         // var mes = 1;
-        
         /*
         Scanner console = new Scanner(System.in);
         
@@ -608,10 +606,9 @@ public class HolaMundo {
         }
         
         System.out.println("estacion = " + estacion);
-*/
-        
+         */
         // Ejercicio: Sistema de calificaciones
-        
+        /*
         Scanner console = new Scanner(System.in);
         
         System.out.println("Proporciona un valor entre 0 y 10:");
@@ -631,8 +628,19 @@ public class HolaMundo {
             nota = "A";
         }
         
-        System.out.println("Su nota es " + nota + "...");        
-  
+        System.out.println("Su nota es " + nota + "...");     
+         */
+        
+        // Ciclos: while
+        var contador = 0;
+        
+        while( contador < 3 ) {
+            System.out.println("contador = " + contador);
+            contador++;
+        }
+        
+        
+        
     }
 
 }

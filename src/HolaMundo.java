@@ -640,14 +640,20 @@ public class HolaMundo {
         }
          */
         // Ciclos: Do while
-        
-        
+        /*
         var contador = 0;
         
         do {
             System.out.println("contador = " + contador);
             contador++;
         } while ( contador < 3);
+         */
+        
+        // Ciclos: for
+        for(var contador = 0; contador < 3 ; contador++) {
+            System.out.println("contador = " + contador);
+        }
+        
         
         
         

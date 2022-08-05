@@ -630,7 +630,7 @@ public class HolaMundo {
         
         System.out.println("Su nota es " + nota + "...");     
          */
-        
+ /*
         // Ciclos: while
         var contador = 0;
         
@@ -638,6 +638,16 @@ public class HolaMundo {
             System.out.println("contador = " + contador);
             contador++;
         }
+         */
+        // Ciclos: Do while
+        
+        
+        var contador = 0;
+        
+        do {
+            System.out.println("contador = " + contador);
+            contador++;
+        } while ( contador < 3);
         
         
         

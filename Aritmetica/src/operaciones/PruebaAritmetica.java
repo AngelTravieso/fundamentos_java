@@ -26,6 +26,9 @@ public class PruebaAritmetica {
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("resultado desde la prueba = " + resultado);
         
+        resultado = aritmetica1.sumarConArgumentos(5, 8);
+        System.out.println("resultado usando argumentos = " + resultado);
+        
     }
     
 }

@@ -11,10 +11,15 @@ package operaciones;
 public class Aritmetica {
     
     // Atributos de la clase
-    
-    // los primitivos numericos tienen como valor default 0
-    int a;
+    int a; // los primitivos numericos tienen como valor default 0
     int b;
+    
+    
+    // Constructor vacio
+    public  Aritmetica() {
+        System.out.println("Ejecutando constructor");
+    }
+    
     
     
     // Metodo
@@ -31,11 +36,12 @@ public class Aritmetica {
     }
     
     
-    public int sumarConArgumentos(int arg1, int arg2) {
-        a = arg1;
-        b = arg2;
+    public int sumarConArgumentos(int a, int b) {
+        // El argumento "a" se asigna al atributo "this.a"
+        this.a = a;
+        this.b = b;
         // return a + b;
-        return sumarConRetorno();
+        return this.sumarConRetorno();
     }
     
     

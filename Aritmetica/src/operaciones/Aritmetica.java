@@ -15,16 +15,25 @@ public class Aritmetica {
     int b;
     
     
+    // Sobrecarga de constructores, es cuando se tiene mas de un constructor
+    
     // Constructor vacio
     public  Aritmetica() {
         System.out.println("Ejecutando constructor");
     }
     
+    // Constructor con argumentos
+    public Aritmetica(int a, int b) {
+        System.out.println("Ejecutando contructor con argumentos");
+        this.a = a;
+        this.b = b;
+        
+    }
     
     
     // Metodo
     public void sumar() {
-        int resultado = a + b ;
+        int resultado = this.a + this.b ;
         System.out.println("resultado = " + resultado);
     }
     

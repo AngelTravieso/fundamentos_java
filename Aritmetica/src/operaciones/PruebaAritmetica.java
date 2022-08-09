@@ -12,6 +12,12 @@ public class PruebaAritmetica {
     
     public static void main(String[] args) {
         
+        // Variables locales
+        int a = 10;
+        int b = 2;
+        
+        miMetodo();
+        
         // Instanciar clase
         Aritmetica aritmetica1 = new Aritmetica();
         System.out.println("aritmetica1 a = " + aritmetica1.a);
@@ -22,8 +28,13 @@ public class PruebaAritmetica {
         System.out.println("aritmetica2 a = " + aritmetica2.a);
         System.out.println("aritmetica2 b = " + aritmetica2.b);
         
-        
-        
+    }
+    
+    
+    public static void miMetodo() {
+        // la variable "a" esta fuera del alcance de donde fue definida
+        // a = 10;
+        System.out.println("otro metodo");
     }
     
 }

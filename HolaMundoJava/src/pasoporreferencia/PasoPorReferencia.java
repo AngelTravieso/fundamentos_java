@@ -16,14 +16,22 @@ public class PasoPorReferencia {
         
         System.out.println("persona1 nombre: " + persona1.nombre);
         
-        cambiarValor(persona1);
+        persona1 = cambiarValor(persona1);
         
         System.out.println("persona1 nombre: " + persona1.nombre);
         
     }
     
-    public static void cambiarValor(Persona persona) {
+    public static Persona cambiarValor(Persona persona) {
+    
+        if(persona == null) {
+            System.out.println("valor de persona invalido: null");
+            return persona;
+        }
+        
         persona.nombre = "Gustavo";
+        
+        return persona;
     }
     
     

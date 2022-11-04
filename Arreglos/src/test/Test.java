@@ -19,9 +19,21 @@ public class Test {
        edades[1] = 15;
        edades[2] = 20;
        
-       System.out.println("edades 0 = " + edades[0]);
-       System.out.println("edades 2 = " + edades[1]);
-       System.out.println("edades 3 = " + edades[2]);
+//       System.out.println("edades 0 = " + edades[0]);
+//       System.out.println("edades 2 = " + edades[1]);
+//       System.out.println("edades 3 = " + edades[2]);
        
+       // acceder a un elemento fuera del arreglo
+       // esto dispara un error en tiempo de ejecucion
+       // java.lang.ArrayIndexOutOfBoundsException = indice fuera del arreglo
+//       edades[3] = 5;
+        
+        for(int i = 0; i < edades.length; i++) {
+            System.out.println("edades: " + edades[i]);
+        }
+        
+        
+       
+ 
    } 
 }

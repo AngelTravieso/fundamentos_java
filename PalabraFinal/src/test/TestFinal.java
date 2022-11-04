@@ -20,5 +20,21 @@ public class TestFinal {
 //        Persona.MI_CONSTANTE = 5;
 
         System.out.println("Mi Constante = " + Persona.MI_CONSTANTE);
+        
+        final Persona persona1 = new Persona();
+        
+        // No se puede volver asignar una referencia a la variable, porque es final
+        // pero si se puede modificar su contenido
+//        persona1 = new Persona();
+
+        // pero si se puede modificar por getters
+        persona1.setNombre("Angel");
+        
+        System.out.println("persona1 nombre: " + persona1.getNombre());
+        
+        persona1.setNombre("Gustavo");
+        
+        System.out.println("persona1 nombre: " + persona1.getNombre());
+        
     }
 }

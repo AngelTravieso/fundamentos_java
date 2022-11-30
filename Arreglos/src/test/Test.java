@@ -10,6 +10,7 @@ public class Test {
        
        // longitud de un arreglo: n - 2
        
+       // arreglo de tipo primitivo (declaracion)
        int edades[] = new int[3]; // los arreglos heredan de la clase object, por eso se usa new
        
        System.out.println("edades: " + edades); // edades: [I@682a0b20
@@ -33,7 +34,12 @@ public class Test {
         }
         
         
-       
- 
+        // inicializar los valores de un arreglo (sintaxis resumida)
+        String frutas[] = {"Naranja", "Uva", "Pera"};
+        
+        for (int i = 0; i < frutas.length; i++) {
+            System.out.println(String.format("frutas = %s", frutas[i]));
+       }
+
    } 
 }
